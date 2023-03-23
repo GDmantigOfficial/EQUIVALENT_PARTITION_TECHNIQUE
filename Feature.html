@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>EQUIVALENT PARTITION TECHNIQUE</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/Icono.ico" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="Bootstrap/css/bootstrap.css">
+        <script src="Bootstrap/js/bootstrap.js"></script>
+    </head>
+    <body>
+        <div class="d-flex" id="wrapper">
+            <!-- Sidebar-->
+            <div class="border-end bg-white" id="sidebar-wrapper">
+                <div class="sidebar-heading border-bottom bg-light">Navigation menu</div>
+                <div class="list-group list-group-flush">
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="index.html">Home page</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="Definition.html">Definition</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="Mean.html">What does it consist of?</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="Feature.html">Features</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="Demostration.html">Demostration</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="Conclusion.html">Conclusion & Personal opinions</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="Activitie.html">Explanation and Activity</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="References.html">References</a>
+                </div>
+            </div>
+            <!-- Page content wrapper-->
+            <div id="page-content-wrapper">
+                <!-- Top navigation-->
+                <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom fixed-top">
+                    <div class="container-fluid">
+                        <button class="btn btn-secondary" id="sidebarToggle">Menu</button>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                                <li class="nav-itedm active"><a class="nav-link" href="index.html">Home</a></li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                                    <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="Mean.html">Previous page</a>
+                                        <a class="dropdown-item" href="Demostration.html">Next page</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="index.html">go to top</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav> <br><br>
+                <!-- Page content-->
+                <div class="rounded bg-white mt-4 mx-4 px-3">
+                    <div class="shadow-lg  border border-secondary border-3 rounded bg-light mx-4 px-3">
+                        <h1 class="mt-4" style="font-size: x-large;">EQUIVALENT PARTITION TECHNIQUE</h1><br>
+                        <p style="font-family: 'Times New Roman', Times, serif; font-size: large;">
+                            Software Testing <br>
+                            Directed by Eder Giovanni Corona <br>
+                            Presented by your classmates <br>
+                            Manuel Cruz Angel Uriel <br>
+                            Paredes Cervantes Sadot Israel <br>
+                            Sanchez Urbina Braulio Jesus <br>
+                        </p>
+                    </div>
+                </div>
+                <div class="rounded bg-white mt-4 mx-4 px-3">
+                    <div class="shadow-lg  border border-secondary border-3 rounded bg-light mx-4 px-3">
+                        <h1 class="mt-4" style="font-size: x-large;">Features</h1><br>
+                        <p style="font-family: 'Times New Roman', Times, serif; font-size: large; text-align: justify;">
+                            The main features of the equivalence partitioning technique are as follows: <br>
+                            <ul style="font-family: 'Times New Roman', Times, serif; font-size: large; text-align: justify;">
+                                <li>
+                                    Divide the inputs into equivalence classes: The equivalence partitioning technique involves dividing the set of possible inputs into equivalence groups or classes,
+                                     where each class represents a set of inputs that produce similar behavior in the system or program under test.
+                                </li>
+                                <code class="fst-italic text-success">Advantage</code> 
+                                <code class="fst-italic text-secondary"> Because following the "divide and conquer" process allows us to have multiple entries with similar results.</code> <br><br>
+                                <li>
+                                    Reduces the number of test cases: Once the inputs have been divided into equivalence classes, the equivalence partitioning technique is used to design a representative set of test cases that cover all equivalence classes.
+                                     This significantly reduces the number of test cases needed to cover all possible combinations of inputs.
+                                </li>
+                                <code class="fst-italic text-success">Advantage</code> 
+                                <code class="fst-italic text-secondary"> By reducing the number of test cases, the number of cases to cover all possible combinations is reduced, thus reducing the amount of time spent on testing.</code> <br><br>
+                                <li>
+                                    Identifies errors in the system: The equivalence partitioning technique is useful for identifying errors in the system or program under test
+                                     by uncovering unexpected or unwanted situations that may arise when processing different types of inputs.
+                                </li>
+                                <code class="fst-italic text-success">Advantage</code> 
+                                <code class="fst-italic text-secondary"> By allowing us to find unexpected errors, we improve security in the system, so the possibility of other types of errors is reduced.</code> <br><br>
+                                <li>
+                                    Saves time and resources: By reducing the number of test cases required, the equivalence partitioning technique saves test
+                                     time and resources, which can result in a more efficient and effective testing process.
+                                </li>
+                                <code class="fst-italic text-success">Advantage</code> 
+                                <code class="fst-italic text-secondary"> And as mentioned before, by saving time, we will be working more efficiently.</code> <br><br>
+                                <li>
+                                    Requires domain knowledge: The equivalence partitioning technique requires deep domain knowledge of the system or program under test in order to correctly
+                                     divide the inputs into equivalence classes and design effective test cases for each class.
+                                </li>
+                                <code class="fst-italic text-danger">Disadvantage</code> 
+                                <code class="fst-italic text-secondary"> By requiring deep subject matter expertise, it gives us a chance of not creating correct test cases, as well as not testing in the best possible way.</code> <br><br>
+                                <li>
+                                    Does not guarantee detection of all errors: Although the equivalence partitioning technique is an effective technique for reducing the number of test cases required, it does not guarantee detection of all errors in the system or program under test.
+                                     Therefore, it should be used in combination with other software testing techniques to ensure the quality of the system as a whole.
+                                </li>
+                                <code class="fst-italic text-danger">Disadvantage</code> 
+                                <code class="fst-italic text-secondary"> Since we cannot detect all types of errors, there is the uncertainty that there is still some error, so we are forced to use other techniques, decreasing the efficiency. </code> <br><br>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <div class="shadow-lg rounded bg-light mt-4">
+            <section class="contact-section bg-light" id="ContactUs">
+                <div class="container p-2 p-lg-3 text-center text-black-50">
+                    <p style="font-family: 'Times New Roman', Times, serif; font-size: large;">
+                        SOFTWARE TESTING
+                    </p>
+                </div>
+            </section>
+            <footer class="footer bg-light small text-center text-black-50">
+                <div class="container p-2 p-lg-2">
+                    <p style="font-family: 'Times New Roman', Times, serif; font-size: large;">
+                        EQUIVALENT PARTITION TECHNIQUE
+                    </p>
+                </div>
+                <div class="container p-2 p-lg-3">
+                    <p style="font-family: 'Times New Roman', Times, serif; font-size: large;">
+                    LICENCIATURA EN TECNOLOGIAS DE LA INFORMACION <br>
+                    SIXTH SEMESTER
+                    </p>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
